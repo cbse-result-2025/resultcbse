@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header {
+    background-color: #00c0c7;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    flex-wrap: wrap;
+  }
+  
+  .header img {
+    height: 100px;
+  }
+  
+  .header-text {
+    text-align: right;
+  }
+  
+  .container {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border: 1px solid #ccc;
+  }
+  
+  h2, h3 {
+    text-align: center;
+  }
+  
+  .info p {
+    margin: 5px 0;
+  }
+  
+  .table-responsive {
+    width: 100%;
+    overflow-x: auto;
+    margin-top: 20px;
+  }
+  head{
+    background-color: blue;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table th, table td {
+    border: 1px solid blue;
+    padding: 8px 10px;
+    text-align: center;
+    white-space: nowrap;
+  }
+  
+  table th {
+    background-color: #f2f2f2;
+  }
+  
+  .result-status {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
+  .result-status .pass {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .note {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
+  .note p {
+    margin: 5px 0;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .header {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .header img {
+      height: 80px;
+      margin-bottom: 10px;
+    }
+  
+    .header-text {
+      text-align: center;
+    }
+  
+    .container {
+      margin: 20px 10px;
+      padding: 15px;
+    }
+  
+    h2 {
+      font-size: 1.4rem;
+    }
+  
+    h3 {
+      font-size: 1.2rem;
+    }
+  
+    .result-status {
+      font-size: 16px;
+    }
+  
+    .note {
+      font-size: 13px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    h2 {
+      font-size: 1.2rem;
+    }
+  
+    h3 {
+      font-size: 1rem;
+    }
+  
+    .info p {
+      font-size: 14px;
+    }
+  
+    table th, table td {
+      padding: 6px 8px;
+      font-size: 12px;
+    }
+  
+    .result-status {
+      font-size: 14px;
+    }
+  
+    .note {
+      font-size: 12px;
+    }
+  }
+  

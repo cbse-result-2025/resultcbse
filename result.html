@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>CBSE Class X Results 2025</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #ffffff;
+        margin: 0;
+        padding: 0;
+      }
+
+      .header {
+        background-color: #00c0c7;
+        padding: 10px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: white;
+        flex-wrap: wrap;
+      }
+
+      .header img {
+        height: 130px;
+        margin: 5px 0;
+      }
+
+      .header-text {
+        color: white;
+        text-align: right;
+        margin-left: auto;
+      }
+
+      .container {
+        max-width: 1200px;
+        margin: 40px auto;
+        padding: 20px;
+        border-radius: 8px;
+        background-color: white;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border: 1px solid #ccc;
+      }
+
+      h2 {
+        text-align: center;
+        margin-bottom: 40px;
+      }
+
+      form {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+      }
+
+      label {
+        font-weight: bold;
+      }
+
+      .info {
+        color: blue;
+        font-size: 12px;
+        margin-left: 5px;
+      }
+
+      input[type="text"] {
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        width: 100%;
+        height: 50px;
+        box-sizing: border-box;
+      }
+
+      .security {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-top: -5px;
+      }
+
+      .security img {
+        height: 40px;
+      }
+
+      .buttons {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        margin-top: 10px;
+        flex-wrap: wrap;
+      }
+
+      .buttons button {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        color: white;
+        cursor: pointer;
+        font-size: 16px;
+        flex: 1 1 140px;
+      }
+
+      .buttons .submit {
+        background-color: #007bff;
+      }
+
+      .buttons .reset {
+        background-color: #dc3545;
+      }
+
+      /* Responsive Styles */
+      @media (max-width: 768px) {
+        .header {
+          flex-direction: column;
+          align-items: center;
+          text-align: center;
+        }
+
+        .header img {
+          height: 100px;
+        }
+
+        .header-text {
+          margin: 10px 0 0 0;
+          text-align: center;
+        }
+
+        .container {
+          margin: 20px 10px;
+          padding: 15px;
+        }
+
+        h2 {
+          font-size: 1.4rem;
+          margin-bottom: 25px;
+        }
+
+        input[type="text"] {
+          height: 45px;
+        }
+
+        .buttons button {
+          flex: 1 1 100%;
+        }
+      }
+
+      @media (max-width: 480px) {
+        .header img {
+          height: 80px;
+        }
+
+        h2 {
+          font-size: 1.2rem;
+        }
+
+        input[type="text"] {
+          height: 40px;
+          padding: 6px;
+        }
+
+        .buttons button {
+          padding: 8px 15px;
+          font-size: 14px;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="header">
+      <img src="/cbseResult.jpg" alt="CBSE Logo" />
+      <div class="header-text">
+        <h2>https://cbseresults.nic.in</h2>
+        <p>Examination Results 2025</p>
+      </div>
+    </div>
+
+    <div class="container">
+      <h2>Secondary School Examination Results 2025</h2>
+      <form>
+        <label>Your Roll Number:</label>
+        <input type="text" placeholder="Roll Number" />
+
+        <label>Your School Number:</label>
+        <input type="text" placeholder="School Number" />
+
+        <label
+          >Admit Card Id
+          <span class="info">(as given on your admit card)</span>:</label
+        >
+        <input type="text" placeholder="Admit Card Id" />
+
+        <label>Date Of Birth <span class="info">(DD/MM/YYYY)</span>:</label>
+        <input type="text" placeholder="Date of Birth" />
+
+        <label
+          >Enter Security Pin <span class="info">(case sensitive)</span>:</label
+        >
+        <input type="text" placeholder="Security Pin" />
+
+        <div class="security">
+          <img
+            src="https://dummyimage.com/100x40/0000ff/ffffff&text=L8T12C"
+            alt="Captcha" />
+        </div>
+
+        <div class="buttons">
+          <a href="/score.html">Submit</a>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
